@@ -1,0 +1,25 @@
+:root {
+  /*padding*/
+  --spacing-none: 0px;
+  --spacing-xxs: 0.8vw; /*3*/
+  --spacing-xs: 1.1vw; /*4*/
+  --spacing-s: 1.6vw; /*6*/
+  --spacing-m: 3.2vw; /*12*/
+  --spacing-l: 4.3vw; /*16*/
+  --spacing-xl: 4.8vw; /*18*/
+  --spacing-xxl: 6.4vw; /*24*/
+}
+
+:root {
+  /*border-radius*/
+  --round-big: 24px;
+  --round-small: 10px;
+}
+
+.flex-direction-down {
+  flex-direction: column;
+}
+
+.flex-direction-right {
+  flex-direction: row;
+}

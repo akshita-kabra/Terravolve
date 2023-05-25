@@ -1,0 +1,169 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: var(--spacing-m) var(--spacing-xxl);
+  gap: auto;
+
+  position: fixed;
+  width: 100%;
+  height: 72px;
+  left: 0px;
+  bottom: 0px;
+  background: var(--grey-10);
+  box-shadow: var(--shadow-medium);
+  flex: none;
+  order: 10;
+  flex-grow: 0;
+  z-index: 10;
+}
+
+.nav-wallet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+
+  width: 32px;
+  height: 45px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.wallet-icon {
+  width: 24px;
+  height: 24px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: url(/Used\ icons/wallet.svg);
+  background-repeat: no-repeat;
+}
+
+.nav-marketplace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+
+  width: 32px;
+  height: 45px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.marketplace-icon {
+  width: 24px;
+  height: 24px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: url(/Used\ icons/Marketplace.svg);
+  background-repeat: no-repeat;
+}
+
+.nav-portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+
+  width: 32px;
+  height: 45px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.portfolio-icon {
+  width: 24px;
+  height: 24px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: url(/Used\ icons/Portfolio.svg);
+  background-repeat: no-repeat;
+}
+
+.nav-newsfeed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+
+  width: 32px;
+  height: 45px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.newsfeed-icon {
+  width: 24px;
+  height: 24px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: url(/Used\ icons/Newsfeed.svg);
+  background-repeat: no-repeat;
+}
+
+.nav-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+  position: relative;
+
+  width: 32px;
+  height: 45px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.profile-icon {
+  width: 24px;
+  height: 24px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: url(/Used\ icons/user.svg);
+  background-repeat: no-repeat;
+  z-index: 12;
+}
+
+.profile-selected {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  clip-path: circle(50% at center);
+  left: 0px;
+  top: -2px;
+
+  /* Yellow-600 */
+  background: #ffffff00;
+  z-index: 11;
+}
+
+div.profile-selected:active {
+  background: var(--yellow-600);
+  z-index: 11;
+}

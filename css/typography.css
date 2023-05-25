@@ -1,0 +1,91 @@
+:root {
+  /* Text-size styles */
+  --m-r-title: 18px;
+  --b-headline: 24px;
+  --m-b-title: 18px;
+  --s-b-title: 15px;
+  --s-r-title: 15px;
+  --i-body: 13px;
+  --b-body: 13px;
+  --r-body: 13px;
+  --m-label: 12px;
+  --s-label: 11px;
+  --r-label: 11px;
+  --b-label: 12px;
+
+  /*font weights*/
+  --extra-bold: 800;
+  --bold: 700;
+  --semi-bold: 600;
+  --regular: 500;
+  --medium: 400;
+  --light: 300;
+}
+
+.m-r-title,
+.m-b-title,
+.b-headline,
+.s-b-title,
+.s-r-title,
+.i-body,
+.b-body,
+.r-body,
+.m-label,
+.s-label,
+.r-label,
+.b-label {
+  font-family: "Open Sans";
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.m-r-title {
+  font-size: var(--m-r-title);
+  font-weight: var(--semi-bold);
+}
+.b-headline {
+  font-size: var(--b-headline);
+  font-weight: var(--bold);
+}
+.m-b-title {
+  font-size: var(--m-b-title);
+  font-weight: var(--bold);
+}
+.s-b-title {
+  font-size: var(--s-b-title);
+  font-weight: var(--bold);
+}
+.s-r-title {
+  font-size: var(--s-r-title);
+  font-weight: var(--semi-bold);
+}
+.i-body {
+  font-size: var(--i-body);
+  font-weight: var(--semi-bold);
+  font-style: italic;
+}
+.b-body {
+  font-size: var(--b-body);
+  font-weight: var(--bold);
+}
+.r-body {
+  font-size: var(--r-body);
+  font-weight: var(--regular);
+}
+.m-label {
+  font-size: var(--m-label);
+  font-weight: var(--semi-bold);
+}
+.s-label {
+  font-size: var(--s-label);
+  font-weight: var(--semi-bold);
+}
+.r-label {
+  font-size: var(--r-label);
+  font-weight: var(--semi-bold);
+}
+.b-label {
+  font-size: var(--b-label);
+  font-weight: var(--bold);
+}

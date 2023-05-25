@@ -1,0 +1,73 @@
+.wallet-card {
+  /* marketplace-card */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-m) var(--spacing-xxl);
+  gap: auto;
+
+  width: 100%;
+  height: 73px;
+
+  /* card gradient */
+
+  background: var(--card-gradient);
+  border: 1px solid var(--yellow-800);
+  box-shadow: var(--shadow-light);
+  border-radius: var(--round-big);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 2;
+}
+
+.portfolio-value {
+  /* Auto layout */
+  color: var(--grey-1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 119px;
+  height: 49px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.divider {
+  /* Rectangle 4386 */
+  width: 1px;
+  height: 48px;
+  background-color: var(--grey-1);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.wallet-value {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  width: 96px;
+  height: 49px;
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}

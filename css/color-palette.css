@@ -1,0 +1,56 @@
+:root {
+  /*colour styles*/
+  --yellow-300: rgba(173, 146, 23, 1);
+  --yellow-400: rgba(214, 183, 43, 1);
+  --yellow-500: rgba(255, 222, 70, 1);
+  --yellow-600: rgba(255, 227, 103, 1);
+  --yellow-700: rgba(255, 233, 136, 1);
+  --yellow-800: rgba(255, 239, 170, 1);
+  --yellow-900: rgba(255, 246, 204, 1);
+  --yellow-100: rgba(92, 75, 0, 1);
+  --yellow-200: rgba(133, 110, 9, 1);
+  --terravolve: rgba(253, 159, 0, 1);
+  --card-gradient: linear-gradient(
+    127.2deg,
+    rgba(255, 227, 103, 1) 0%,
+    rgba(255, 246, 204, 0.5) 61.36%,
+    rgba(255, 239, 170, 1) 100%
+  );
+  --blue-100: rgba(0, 52, 92, 1);
+  --blue-200: rgba(6, 66, 112, 1);
+  --blue-300: rgba(15, 82, 133, 1);
+  --blue-400: rgba(26, 98, 153, 1);
+  --blue-500: rgba(40, 116, 174, 1);
+  --blue-600: rgba(72, 141, 194, 1);
+  --blue-700: rgba(110, 169, 214, 1);
+  --blue-800: rgba(154, 200, 235, 1);
+  --blue-900: rgba(204, 233, 255, 1);
+  --grey-0: rgba(0, 0, 0, 1);
+  --grey-1: rgba(23, 22, 24, 1);
+  --grey-2: rgba(46, 44, 48, 1);
+  --grey-3: rgba(69, 66, 72, 1);
+  --grey-4: rgba(92, 89, 96, 1);
+  --grey-5: rgba(116, 113, 120, 1);
+  --grey: rgba(116, 113, 120, 1);
+  --grey-6: rgba(143, 140, 147, 1);
+  --grey-7: rgba(170, 168, 174, 1);
+  --grey-8: rgba(198, 196, 201, 1);
+  --grey-9: rgba(226, 225, 228, 1);
+  --grey-95: rgba(245, 245, 245, 1);
+  --grey-10: rgba(255, 255, 255, 1);
+  --highlights-error: rgba(235, 89, 89, 1);
+  --highlights-correct: rgba(145, 206, 93, 1);
+}
+
+:root {
+  /* Effect styles */
+  --shadow-light: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0px 2px 10px rgba(0, 0, 0, 0.18);
+}
+
+.shadow-light {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.shadow-medium {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.18);
+}
