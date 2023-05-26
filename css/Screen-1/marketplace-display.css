@@ -618,9 +618,9 @@
 }
 
 .propcard-info {
-  /* project-info */
+  /*project-info 
 
-  /* Auto layout */
+  Auto layout*/
 
   display: flex;
   flex-direction: row;
@@ -633,7 +633,7 @@
   width: 100%;
   height: 41px;
 
-  /* Inside auto layout */
+  /* Inside auto layout*/
 
   flex: none;
   order: 3;
